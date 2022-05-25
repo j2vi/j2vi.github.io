@@ -24,13 +24,13 @@
   align-self: center;
   flex-direction: column;
   width: 640px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
 .user-title {
-  font-family: 'Lora', sans-serif;
+  font-family: "Lora", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -62,22 +62,20 @@
   border-radius: 10px;
 }
 
-.i-vk {
-  background-color: $vk-item-color;
-  ;
-  transition-duration: .3s;
+.i-social {
+  background-color: $social-item-color;
+  transition-duration: 0.3s;
 } // hover in another file
 
 .i-portfolio {
   background-color: $portfolio-item-color;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 } // hover in another file
 
 .i-phone {
-  border: 1px solid $phone-item-color;
-  transition-duration: .3s;
+  border: 1px solid $whatsapp-item-color;
+  transition-duration: 0.3s;
 } // hover in another of file
-
 
 .item-link {
   display: flex;
@@ -133,19 +131,6 @@
   margin: 0 5px;
 }
 */
-
-.messenger-link {
-  text-decoration: none;
-}
-.telegram-link {
-  color: $telegram-link-color;
-}
-.whatsapp-link {
-  color: $whatsapp-link-color;
-}
-.viber-link {
-  color: $viber-link-color;
-}
 
 .user-img {
   width: 300px;
