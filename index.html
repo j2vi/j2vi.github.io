@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!-- English Version Page -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -15,67 +15,81 @@
     />
     <title>Vitaly Anischenko | Web-Developer</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section class="wrapper">
-      <div class="container">
-        <div class="user">
-          <div class="user-profile">
-            <h2 class="user-title">Hi! My name is Vitaly Anischenko</h2>
-            <p class="user-paragraph p-profession">
-              I am a <b>Web-Developer</b>.<br />To combine business with
-              pleasure I suggest you order a website or landing page from me so
-              your business will grow-up. Thanks to me, you can:
-            </p>
-            <ul class="offer-list">
-              <li class="offer-item">
-                Open internet shop and invite new clients
-              </li>
-              <li class="offer-item">Support dialog with customers</li>
-              <li class="offer-item">Increase awareness in B2B & eCommerce</li>
-              <li class="offer-item">Increase brand credibility</li>
-            </ul>
-            <p class="user-paragraph p-smile">
-              And I will have a cool portfolio &#128522;
-            </p>
-            <p class="user-paragraph p-write">Here's my contacts:</p>
-            <ul class="user-nav">
-              <li class="nav-item i-social">
+    <div class="container">
+      <header class="header" data-aos="fade-down">
+        <h2>
+          Hi! My name is <br />
+          <span class="username">Vitaly Anischenko</span>
+        </h2>
+      </header>
+      <main class="main" data-aos="zoom-in">
+        <aside class="aside">
+          <img src="img/Vitaly.webp" alt="" class="avatar" />
+        </aside>
+        <div class="description">
+          <p>I am a <strong class="role">Web-Developer</strong>.</p>
+
+          <p>
+            To combine business with pleasure I suggest you order a website or
+            landing page from me so your business will grow-up. Thanks to me,
+            you can:
+          </p>
+
+          <ul class="offer-list">
+            <li class="offer-item">
+              Open internet shop and invite new clients
+            </li>
+            <li class="offer-item">Support dialog with customers</li>
+            <li class="offer-item">Increase awareness in B2B & eCommerce</li>
+            <li class="offer-item">Increase brand credibility</li>
+          </ul>
+
+          <p>You will be happy and I will have a cool portfolio 😊</p>
+          <nav class="nav">
+            <p>Here's my contacts:</p>
+            <ul class="nav-list">
+              <li class="nav-item social">
                 <a
                   href="https://www.linkedin.com/in/vitaly-anischenko-783475195/"
-                  class="item-link l-social"
                   target="_blank"
+                  class="nav-link"
                   >LinkedIn</a
                 >
               </li>
-              <li class="nav-item i-portfolio">
+              <li class="nav-item portfolio">
                 <a
                   href="https://github.com/j2vi"
-                  class="item-link l-portfolio"
                   target="_blank"
+                  class="nav-link"
                   >GitHub</a
                 >
               </li>
-              <li class="nav-item i-phone">
-                <a href="https://wa.me/79251359615" class="item-link l-phone"
+              <li class="nav-item contact">
+                <a
+                  href="https://wa.me/79251359615"
+                  target="_blank"
+                  class="nav-link"
                   >WhatsApp</a
                 >
               </li>
             </ul>
-          </div>
-          <div class="user-avatar">
-            <img
-              src="img/Vitaly.jpg"
-              alt="User Img"
-              class="user-img"
-              width="300"
-              height="300"
-            />
-          </div>
+          </nav>
         </div>
-      </div>
-    </section>
+      </main>
+      <footer class="footer">
+        <small class="copyright">&copy; j2vi, 2021-2022</small>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
