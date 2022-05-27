@@ -26,6 +26,7 @@ body {
   height: 100%;
   background-color: #131313;
   color: #ccc;
+  user-select: none; /* disabled selection for safety */
 }
 
 .container {
@@ -142,18 +143,19 @@ body {
 .portfolio {
   background-color: #eee;
   color: #131313;
+  border: 2px solid #eee;
   transition-duration: 0.3s;
 }
 
 .contact {
   background-color: transparent;
   color: #52cc52;
-  border: 1px solid #52cc52;
+  border: 2px solid #52cc52;
   transition-duration: 0.3s;
 }
 
 .social:hover {
-  background-color: #66f;
+  background-color: #77f;
   color: #131313;
   transition-duration: 0.3s;
 }
@@ -161,14 +163,13 @@ body {
 .portfolio:hover {
   background-color: #131313;
   color: #eee;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   transition-duration: 0.3s;
 }
 
 .contact:hover {
   background-color: #52cc52;
   color: #131313;
-  border: 1px solid #52cc52;
   transition-duration: 0.3s;
 }
 
