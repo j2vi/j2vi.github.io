@@ -1,10 +1,5 @@
 # My Personal Web Page
 
-### Primary
+Just click on this link
+- [j2vi.github.io](https://j2vi.github.io)
 
-- GitHub Pages Link: [j2vi.github.io](https://j2vi.github.io)
-- Official Web-Site: [j-2vi.com](https://j-2vi.com)
-
-### Additional
-
-- CodePen: [codepen.io/j2vi](https://codepen.io/j2vi)
