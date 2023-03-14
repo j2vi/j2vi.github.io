@@ -149,8 +149,8 @@ body {
 
 .contact {
   background-color: transparent;
-  color: #52cc52;
-  border: 2px solid #52cc52;
+  color: #2aabee;
+  border: 2px solid #2aabee;
   transition-duration: 0.3s;
 }
 
@@ -168,7 +168,7 @@ body {
 }
 
 .contact:hover {
-  background-color: #52cc52;
+  background-color: #2aabee;
   color: #131313;
   transition-duration: 0.3s;
 }
