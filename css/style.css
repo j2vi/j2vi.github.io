@@ -85,16 +85,19 @@ body {
   font-weight: 400;
 }
 
-.description p {
+.description-text {
   margin: 0.25rem 0;
   margin-right: 3rem;
   font-size: 1.125rem;
 }
 
 .offer-list {
-  font-size: 1.25rem;
   margin: 1rem 0;
   padding-left: 2rem;
+}
+
+.offer-item {
+  font-size: 1.25rem;
   color: #fff;
 }
 
@@ -238,7 +241,7 @@ body {
     width: 12rem;
     height: 12rem;
   }
-  .description p {
+  .description-text {
     text-align: center;
     align-items: center;
     margin: 0;
